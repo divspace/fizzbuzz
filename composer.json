@@ -1,0 +1,22 @@
+{
+  "name": "divspace/webpt",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.6",
+    "phpunit/phpunit": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Divspace\\Fizzbuzz\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/FizzBuzzTest.php"
+    ]
+  }
+}
